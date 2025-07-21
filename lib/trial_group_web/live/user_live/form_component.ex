@@ -19,8 +19,8 @@ defmodule TrialGroupWeb.UserLive.FormComponent do
         phx-change="validate"
         phx-submit="save"
       >
-        <.input field={@form[:name]} type="text" label="Name" />
-        <.input field={@form[:age]} type="number" label="Age" />
+        <.input field={@form[:name]} type="text" label="Nama" />
+        <.input field={@form[:age]} type="number" label="Umur" />
         <:actions>
           <.button phx-disable-with="Saving...">Save User</.button>
         </:actions>
